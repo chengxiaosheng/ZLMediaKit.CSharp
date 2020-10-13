@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>ZLMediaKit.CSharp</id>
+    <version>1.0.1</version>
+    <title>ZLMediaKit CSharp</title>
+    <authors>ChengXiaosheng</authors>
+    <owners>ChengXiaosheng</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <description>
+      ZLMediaKit wrapper library written in C++ and C# for Windows, MacOS and Linux
+
+      Requirements: mk_api.dll (Windows), libmk_api.so (Linux), libmk_api.dylib (MacOSX)
+    </description>
+    <releaseNotes></releaseNotes>
+    <copyright>© ChengXiaosheng 2020-2022</copyright>
+    <tags>ZLMediaKit</tags>
+    <serviceable>true</serviceable>
+  </metadata>
+  <files>
+    <file src="runtimes\**\*" target="runtimes" />
+    
+  </files>
+</package>
